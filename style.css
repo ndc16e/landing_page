@@ -18,6 +18,41 @@ a {
     color:aliceblue
 }
 
-.header_links {
+* {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.div_1 {
+    margin-top: -16px;
+    display: ;
+    justify-content: space-between;
+    }
+
+#hero1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+#hero2 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 10%;
+    border: none;
+}
+
+#hero_img {
+    height: auto;   
+    max-width: 400px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
