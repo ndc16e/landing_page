@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 1%;
+    align-items: center;
+}
+
+#logo {
+    height: auto;
+    max-width: 200px;
+}
+header, .div_1, footer {
+    background-color: #1f2937;
+}
+
+a {
+    text-decoration: none;
+    color:aliceblue
+}
+
+.header_links {
+    font-family: Arial, Helvetica, sans-serif;
+}
