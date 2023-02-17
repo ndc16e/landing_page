@@ -1,13 +1,25 @@
 header {
     display: flex;
     justify-content: space-between;
-    padding: 1% 1%;
+    padding-right: 10%;
     align-items: center;
+}
+
+.header_links {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 6%;
+}
+
+.hlinks {
+    justify-content: space-between;
+    margin: 10%;
 }
 
 #logo {
     height: auto;
     max-width: 200px;
+    border-radius: 10%;
 }
 header, .div_1, footer {
     background-color: #355935;
@@ -16,6 +28,10 @@ header, .div_1, footer {
 a {
     text-decoration: none;
     color:aliceblue
+}
+
+a:hover {
+    color: tan;
 }
 
 * {
@@ -51,16 +67,23 @@ button {
 #hero_img {
     height: auto;   
     max-width: 400px;
+    border-radius: 10%;
 }
 
 .top {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .topleft {
     padding-right: 50px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    vertical-align: auto;
 }
 
 .info_img {
@@ -73,12 +96,16 @@ button {
 .div_2 {
     display: flex;
     flex-direction: column;
+   
 }
 
 .info {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-bottom: 50px;
 }
 
 .info > div {
@@ -89,8 +116,7 @@ button {
 figcaption {
     display: table-caption;
     caption-side: bottom;
-    text-align: top;
-    vertical-align: top;
+   
 }
     
 .div_3 {
@@ -106,7 +132,48 @@ figcaption {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    background-color: forestgreen;
 }
 
 
 
+#but_2 {
+    border: 2px white solid;
+}
+
+body {
+    margin: 0;
+}
+
+.logo, .div_1, .div_2, .div_3, .div_4, footer {
+    padding: 0 10%;
+}
+
+.div_3 {
+    padding: 50px 20%;
+}
+
+#quote {
+    font-style: italic;
+}
+
+#credit {
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    color: #E5E7EB;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#info {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.info_img {
+    margin-bottom: 20px;
+}
