@@ -10,7 +10,7 @@ header {
     max-width: 200px;
 }
 header, .div_1, footer {
-    background-color: #1f2937;
+    background-color: #355935;
 }
 
 a {
@@ -57,9 +57,15 @@ button {
     justify-content: space-between;
 }
 
+.topleft {
+    padding-right: 50px;
+}
+
 .info_img {
     height: 250px;
     width: 250px;
+    border-radius: 10%;
+    display: block;
 }
 
 .div_2 {
@@ -74,13 +80,21 @@ button {
 }
 
 .info > div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: table;
+  
 }
 
-.info > p {
-    margin:auto;
+figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    text-align: top;
+    vertical-align: top;
 }
     
+.div_3 {
+    background-color: #E5E7EB;
+}
+
+#credit {
+    text-align: right;
 }
