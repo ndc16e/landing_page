@@ -18,7 +18,7 @@ header {
 
 #logo {
     height: auto;
-    max-width: 200px;
+    max-width: 100px;
     border-radius: 10%;
 }
 header, .div_1, footer {
@@ -99,25 +99,9 @@ button {
    
 }
 
-.info {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-top: 25px;
-    padding-bottom: 50px;
-}
 
-.info > div {
-    display: table;
-  
-}
 
-figcaption {
-    display: table-caption;
-    caption-side: bottom;
-   
-}
+
     
 .div_3 {
     background-color: #E5E7EB;
@@ -133,7 +117,13 @@ figcaption {
     align-items: center;
     justify-content: space-between;
     background-color: forestgreen;
+    color: #e5e7eb;
+    margin: 50px 25%;
+    padding-right: 10%;
+    border-radius: 10%;
+
 }
+
 
 
 
@@ -176,4 +166,23 @@ footer {
 
 .info_img {
     margin-bottom: 20px;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   flex-wrap: wrap;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+figcaption {
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 250px;
+}
+
+.info1, .info2, .info3, .info 4 {
+    display: flex;
+    align-items: center;
 }
